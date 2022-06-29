@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #131a28;
+    
+}
+
+.heading{
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.sub-title{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.sub-title span{
+    font-size: 2.5rem;
+    color: #1cdbf5;
+ 
+}
+
+.bd-right-bottom{
+    border-bottom: .5rem solid #1cdbf5;
+    border-right: .5rem solid #1cdbf5;
+}
+
+.bd-right{
+    border-right: .5rem solid #1cdbf5;
+}
+
+.bd-bottom{
+    border-bottom: .5rem solid #1cdbf5;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.btn{
+    background: #1cdbf5;
+    padding: 1.2rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+}
+
+.tictac .row{
+    display: flex;
+    font-size: 3rem;
+    color: white;
+}
+
+.cell{
+    /* border: 3px solid #1cdbf5; */
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    line-height: 10rem;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 8rem;
+    font-size: 2rem;
+    color: #fff;
+    opacity: .7;
+    text-align: center;
+}
+
+.footer span{
+    color: #1cdbf5;
+}
+
+
+@media(max-width: 720px)
+{
+    html{
+        font-size: 50%;
+    }
+}
